@@ -1,0 +1,24 @@
+# --- secrets (NEVER commit) ---
+.env
+
+# --- python ---
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# --- node / frontend ---
+node_modules/
+frontend/dist/
+
+# --- demo mode generated media ---
+backend/core/demo_media/uploads/
+
+# --- logs / OS junk ---
+*.log
+.DS_Store
+Thumbs.db
+
+# --- freebuff local marker ---
+.freebuff/
